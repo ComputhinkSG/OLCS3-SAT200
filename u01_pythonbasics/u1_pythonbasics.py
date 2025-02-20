@@ -1,17 +1,13 @@
-
 ###################################################
 # Part 1: Learning Exercises
 
 # Exercise 1: Variables and Assignments
 # Assign values to variables and calculate their sum.
 # Example: Assign 10 to a and 20 to b. Calculate their sum.
-# print('Hello, World')
-
-# a = 10
-# b = 20
-# c = a + b
-# print(c)
-
+a = 10
+b = 20
+sum_value = a + b
+print("Sum of a and b is:", sum_value)
 
 
 #------------------------------------------------------------
@@ -23,14 +19,7 @@
 This is a multi-line comment.
 It explains the code in detail.
 """
-# print("Comments explain your code.")
-
-essay = ''' This is a story
-of a cat and a dog
-sitting under the papaya tree
-and drinking milk
-'''
-# print(essay)
+print("Comments explain your code.")
 
 
 
@@ -40,20 +29,11 @@ and drinking milk
 # Combine two strings to make a greeting.
 # Example: Assign "Hello" to greeting and "John" to name.
 # Combine them to display: "Hello John".
-greeting = "Hola"
-name = "Ranen"
+greeting = "Hello"
+name = "John"
 message = greeting + " " + name
 print(message)
 
-# formatting strings
-# option 1: to use the plus
-print('HOla' + ' ' + 'Leonard')
-
-# option 2: to use comma (this only works inside a print())
-print('Ni hao', 'Axl')
-
-# option 3: .format()
-print('{}, {}'.format('Konnichiwa','Jared'))
 
 
 
@@ -64,14 +44,7 @@ print('{}, {}'.format('Konnichiwa','Jared'))
 phrase = "Python is fun! "
 print(phrase * 3)
 
-print('Go!' * 200)
 
-print('$')
-print('$'*2)
-print('$'*3)
-print('$'*4)
-print('$'*5)
-print('$'*6)
 
 
 #------------------------------------------------------------
@@ -83,47 +56,3 @@ print('$'*6)
 language = "Python"
 adjective = "awesome"
 print("Learning " + language + " is " + adjective + "!")
-
-
-
-###########################################################
-# Part 2. IN-CLASS Practice Exercises
-
-# Exercise 1: Variables and Operations
-# Subtract two numbers stored in variables. Try changing them.
-# Example: Assign 15 to x and 5 to y. Calculate x - y.
-
-
-
-
-#------------------------------------------------------------
-# Exercise 2: Adding Comments to Code
-# Add comments to explain each line in this code.
-# Example: Store first and last names, combine them, and
-# print a greeting.
-
-first_name = "Alice"  # Store first name
-last_name = "Tan"     
-full_name = first_name + " " + last_name  
-print("Welcome, " + full_name + "!")  
-
-
-
-
-#------------------------------------------------------------
-# Exercise 3: String Concatenation
-# Combine variables into a full sentence.
-# Example: Assign "sunny" to weather and "picnic" to activity.
-# Combine them to display: "It is a sunny day for a picnic."
-weather = "sunny"
-
-
-
-
-
-#------------------------------------------------------------
-# Exercise 4: String Repetition
-# Use repetition to create a patterned message.
-# Example: Print "Go! " five times to display: "Go! Go! Go!
-# Go! Go!"
-

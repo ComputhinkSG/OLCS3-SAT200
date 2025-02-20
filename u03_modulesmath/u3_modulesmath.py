@@ -157,3 +157,17 @@ random.randint(1, 6)
 # pack items and how many items are leftover. Example: If there 
 # are 53 items and each box holds 12, the output is:
 # Full boxes = 4, Leftover = 5.
+
+
+
+
+
+numstudents = 23
+groupsize = 4
+
+numgroups = numstudents // groupsize
+leftover = numstudents % groupsize
+
+print(f"{numstudents} students divided into groups of {groupsize}")
+print(f"Number of groups formed = {numgroups}")
+print(f"Number students without a group = {leftover}")
