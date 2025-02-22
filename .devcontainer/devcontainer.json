@@ -12,8 +12,8 @@
                 "auto-commit.enable": true,  // Enable Auto Commit
                 "auto-commit.message": "Auto-commit by extension",
                 "auto-commit.intervalSeconds": 300,  // Commit every 5 minutes,
-                "workbench.colorTheme": "Visual Studio Dark", 
-                "editor.fontSize": 18
+                "workbench.colorTheme": "Visual Studio Dark",  // dark
+                "editor.fontSize": 18 //big
             }
         }
     },
