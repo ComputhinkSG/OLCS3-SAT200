@@ -3,14 +3,17 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-python.python",  // Essential Python extension
-                "ms-vsliveshare.vsliveshare",  // Live Share for collaboration
-                "knisterpeter.auto-commit"  // Auto Commit for periodic saves
+                "ms-python.python",
+                "ms-vsliveshare.vsliveshare",
+                "knisterpeter.auto-commit",
+                "ms-toolsai.jupyter"
             ],
             "settings": {
                 "auto-commit.enable": true,  // Enable Auto Commit
                 "auto-commit.message": "Auto-commit by extension",
-                "auto-commit.intervalSeconds": 300  // Commit every 5 minutes
+                "auto-commit.intervalSeconds": 300,  // Commit every 5 minutes,
+                "workbench.colorTheme": "Visual Studio Dark", 
+                "editor.fontSize": 18
             }
         }
     },
