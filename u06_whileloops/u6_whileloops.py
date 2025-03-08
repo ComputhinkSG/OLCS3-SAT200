@@ -53,3 +53,28 @@ while count < 6:  # this condition is true, then repeat
 # Exercise 6: Using While True for Validation
 # Write a program to ensure the user enters a password at least 
 # 8 characters long. Use while True to validate the input.
+
+
+###########################################################
+# Part 2. IN-CLASS Practice Exercises
+# Exercise 7: Multiplication Table with While Loop
+# Write a program to print the multiplication table of 7 up to 10.
+# Example: 7 x 1 = 7, ..., 7 x 10 = 70.
+
+
+
+
+
+#------------------------------------------------------------
+# Exercise 8: Sum of Even Numbers
+# Write a program to calculate the sum of even numbers between 1 
+# and 20 using a while loop. Example: Output = 110.
+
+
+
+
+
+#------------------------------------------------------------
+# Exercise 9: Guessing Game
+# Write a program where the user has to guess a random number 
+# between 1 and 10. Keep prompting until they guess correctly.
